@@ -1,0 +1,149 @@
+.wrapper {
+  overflow: clip;
+  min-height: 100%;
+}
+
+[class*="__container"] {
+  max-width: 1272px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #808080;
+}
+
+.ecobazar {
+  padding: 50px 0;
+
+}
+
+.ecobazar__wrapper {
+  max-width: 648px;
+  margin: 0 auto;
+}
+
+.ecobazar__title {
+  font-size: 50px;
+  padding-left: 65px;
+  font-weight: 500;
+  color: #002603;
+  margin-bottom: 30px;
+  background: url("../img/plant.svg") 0 0 / 60px no-repeat;
+}
+
+.ecobazar__main-text p {
+  margin-bottom: 20px;
+}
+
+.ecobazar__list {
+  margin-bottom: 20px;
+}
+
+.ecobazar__item {
+  padding-left: 28px;
+  margin-bottom: 14px;
+  min-height: 20px;
+  background: url("../img/check.svg") 0 0 / 20px no-repeat;
+}
+
+.hydra {
+  background-color: #302C42;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  padding: 50px 0;
+}
+
+.hydra__title {
+  padding-left: 100px;
+  font-weight: 700;
+  font-size: 85px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: #8176AF;
+  background: url("../img/hydra.svg") 0 0 / 103px no-repeat;
+}
+
+
+.hydra__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  grid-row: 30px;
+  grid-column: 20px;
+  padding: 53px 80px 58px 30px;
+  border-radius: 90px;
+  margin-bottom: 100px;
+  background: radial-gradient(2900.76% 50.13% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+  box-shadow: 0px 4px 4px 0px rgba(192, 183, 232, 0.01);
+}
+
+.item-hydra {
+  padding-left: 70px;
+  min-height: 70px;
+}
+
+.item-hydra__title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.item-hydra--location {
+  background: url("../img/location.svg") 0 0 / 70px no-repeat;
+}
+
+.item-hydra--call {
+  background: url("../img/phone.svg") 0 0 / 59px no-repeat;
+}
+
+.item-hydra--mail {
+  background: url("../img/mail.svg") 0 0 / 65px no-repeat;
+}
+
+.about-hydra {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.about-hydra__image {
+  border-radius: 240px 100px;
+}
+
+.about-hydra__content {
+  max-width: 630px;
+}
+
+.about-hydra__title {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.about-hydra__subtitle {
+  font-size: 36px;
+  font-weight: 300;
+  margin-bottom: 42px;
+}
+
+.about-hydra__text {
+  margin-bottom: 28px;
+}
+
+.about-hydra__btn {
+  color: #343045;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 40px;
+  padding: 17px 47px 16px 39px;
+  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+}
